@@ -6,7 +6,17 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/leandrob/wstrust-client.git"
-    },
-    "keywords": ["node.js", "ws-trust", "wstrust", "adfs", "identity", "federation"],
-    "main": "./lib/wsTrustClient.js"
+  },
+  "keywords": [
+    "node.js",
+    "ws-trust",
+    "wstrust",
+    "adfs",
+    "identity",
+    "federation"
+  ],
+  "main": "./lib/wsTrustClient.js",
+  "dependencies": {
+    "xml-escape": "^1.0.0"
+  }
 }
